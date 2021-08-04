@@ -1,3 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+main {
+width: 970px;
+}
+
 body {
-  padding: 2
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(116, 116, 116);
+  padding: 25px;
+}
+
+.threeimagerow img:nth-child(1) {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.threeimagerow img:nth-child(2) {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.threeimagerow {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color:rgb(116, 116, 116)
+}
+
+nav {
+  display: inline;
+  padding: 45px;
+  float: right;
+}
+
+.featuredsection {
+  overflow: scroll;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+}
+
+button {
+
 }
